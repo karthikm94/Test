@@ -1,0 +1,34 @@
+import React, { Component } from 'react';
+
+class postlist extends react
+{
+  constructor(props){
+  super(props)
+   this.set = {
+    post: []
+     error : []
+}
+}
+
+com[ponentDidUnmount(){
+
+axios.get('https://jsonplaceholder.typicode.com/users')
+.then ( response ()=>{
+    this.setState.post
+)
+.catch( error () =>{
+   this.setState.error
+)
+}
+
+render(){
+return(
+   <div>
+  post.length?
+   post.map(post => {list} <h1> uer details list </h1>
+   error.message ? 
+    <p> return invalid list <p>
+   </div>
+}
+}
+export defaul postlist
