@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+
+class DragDropMmemo extends component{
+constructor()
+super (props)
+this.state :
+{
+  task : e
+}
+
+
+render() 
+{        
+  var tasks = { wip: [],  complete: []         
+ }         
+return (
+   <div className="container-drag">        DRAG & DROP DEMO      </div>    );  
+  this.state.tasks.forEach ((t) => { tasks[t.category].push(<div key={t.name}   onDragStart={(e)=>this.onDragStart(e, t.name)}                          draggable                          
+className="draggable"                          
+style={{backgroundColor: t.bgcolor}}>                                
+{t.name}                   
+ </div>);        
+  });
